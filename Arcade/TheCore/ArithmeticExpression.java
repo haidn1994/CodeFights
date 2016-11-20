@@ -5,5 +5,5 @@ boolean arithmeticExpression(int A, int B, int C) {
            (A - B == C) ? true :
            (A * B == C) ? true :
     ((float)A / B == C) ? true : false;
-    // float자료형 보다는 BigDecimal을 얻어야 한다.
+    // float자료형 보다는 BigDecimal을 사용해야 한다.
 }

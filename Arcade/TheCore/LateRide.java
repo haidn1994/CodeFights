@@ -48,6 +48,7 @@ int lateRide(int n) {
     String timeStamp = n/60 + "" + n%60 + "";
     char[] temp = timeStamp.toCharArray();
     
+    // 아스키 테이블에 유의하라
     for(char each : temp)
         result += (int) (each - 48);
     
