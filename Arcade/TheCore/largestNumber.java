@@ -42,3 +42,16 @@ int basePowerExponent (int base, int exponent){
 	    
     return result;
 }
+
+/*
+    직접 함수를 만들어서 해결하고자 하는 생각은 좋은 생각이지만,
+    1. 그건 공부를 하거나, 2. 정말 밑단에서 뭔가를 하거나, 3. 한정적인 상황에 맞는 솔루션 개발상황에 맞다. 
+
+    따라서 현업에서는 
+    Math.pow(double base, double exponent) 반환값 double
+    ~을 사용하는 쪽이 좀 더 맞다고 생각한다.  
+*/    
+
+int largestNumber(int n){
+    return (int) Math.pow(10, n) - 1;
+}

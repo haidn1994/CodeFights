@@ -42,4 +42,10 @@ int candies(int n, int m) {
     return m - m%n;
 }
 
-// 사탕수 - 사탕수/아이들  
+// 사탕수 - 사탕수/아이들
+
+// 하지만 이런 풀이도 있다.
+// 몫 * 아이들
+int candies(int n, int m) {
+    return m/n * n;
+}
